@@ -6,6 +6,7 @@ class GoodnessValidator < ActiveModel::Validator
   end
 end
 class Employee < ApplicationRecord
+  self.per_page = 2
   belongs_to :company
   after_initialize do |user|
     puts "=============You have initialized an object!=================="
