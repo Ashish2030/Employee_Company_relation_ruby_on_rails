@@ -45,7 +45,7 @@
         <div class="formbg">
           <div class="formbg-inner padding-horizontal--48">
             <h4><%=flash[:notice] %></h4>
-            <span class="padding-bottom--15">Login in to your account</span>
+            <span class="padding-bottom--15"><%= t :Login_in_to_your_account %></span>
             <%=form_with id:"stripe-login" do |form| %>
               <div class="field padding-bottom--24">
                 <div class="field">
@@ -64,7 +64,7 @@
                   <%=form.submit "Login" , :id => "a111"  %>
                 </div>
               </div>
-            <%end %>
+          <%end %>
           </div>
         </div>
       </div>

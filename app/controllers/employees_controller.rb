@@ -5,6 +5,7 @@ class EmployeesController < ApplicationController
 
   # GET /employees or /employees.json
   def index
+
     @employees = Employee.paginate(page: params[:page])
   end
 

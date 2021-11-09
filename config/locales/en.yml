@@ -30,4 +30,14 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  Company: "Company"
+  Employee: "Employee"
+  Name: "Name"
+  Age: "Age"
+  Salary: "Salary"
+  Year: "Year"
+  Username: "Username"
+  Login_in_to_your_account: "Login in to your account "
+
+
+
